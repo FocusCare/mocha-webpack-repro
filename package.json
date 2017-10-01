@@ -1,0 +1,17 @@
+{
+  "name": "mwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src.js",
+  "devDependencies": {
+    "expect": "^21.2.1",
+    "mocha": "^3.5.3",
+    "mocha-webpack": "^1.0.0-rc.1",
+    "webpack": "^3.6.0"
+  },
+  "scripts": {
+    "test": "mocha-webpack --webpack-config webpack.config.js test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
